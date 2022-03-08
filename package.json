@@ -1,0 +1,35 @@
+{
+  "name": "natour-bn-backend",
+  "version": "1.0.0",
+  "description": "Nodejs,express and mongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon sever.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bizip/natour-bn-backend.git"
+  },
+  "author": "Bizimungu Pascal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bizip/natour-bn-backend/issues"
+  },
+  "homepage": "https://github.com/bizip/natour-bn-backend#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.9.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.4.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.28.0",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
